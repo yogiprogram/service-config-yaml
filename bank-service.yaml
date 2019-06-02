@@ -1,0 +1,15 @@
+server:
+  port: 8183
+
+spring:
+  application:
+    name: bank-service
+
+logging:
+  level:
+    ROOT: info
+
+service.swagger.host: 192.168.99.100:30458/bank-service
+
+services:
+  account-service-url: http://account-service

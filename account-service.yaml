@@ -1,0 +1,18 @@
+server:
+  port: 8182
+spring:
+  application:
+    name: account-service
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    initialization-mode: always
+
+service.swagger.host: "192.168.99.100:30458/account-service"
+
+logging:
+  level:
+    ROOT: info
