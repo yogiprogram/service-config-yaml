@@ -9,5 +9,5 @@ logging:
   level:
     ROOT: info
 
-permitted-resource-url: /oauth/token,/oauth/authorize**,/**/v2/api-docs,/**/configuration/ui,/**/configuration/security,/**/swagger-resources**,/extauth/**/webjars/**,/extauth/auth-service/**,/extauth/ambassador/**,/extauth/auth-service/oauth/token,/extauth/auth-service/oauth/authorize**,/extauth/account-service/accounts,/extauth/**/swagger-ui.html**
+permitted-resource-url: /oauth/token,/oauth/authorize**,/**/v2/api-docs,/**/configuration/ui,/**/configuration/security,/**/swagger-resources**,/extauth/**/webjars/**,/extauth/auth-service/**,/extauth/ambassador/**,/extauth/auth-service/oauth/token,/extauth/auth-service/oauth/authorize**,/extauth/account-service/accounts,/extauth/**/swagger-ui.html**,/extauth/config-service/**
 need-authorization-resource-url: /extauth/account-service/accounts/*,/extauth/bank-service/bank/*
